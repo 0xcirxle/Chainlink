@@ -1,0 +1,130 @@
+.oracleContainer {
+  background-image: url("../../Assets/oracle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 100px 1.75fr 0.75fr 150px;
+  grid-template-rows: 180px 1fr 1fr 150px;
+  gap: 20px;
+}
+
+.textContainer {
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+  display: grid;
+  grid-template-columns: 25px 1fr 25px;
+  grid-template-rows: 25px 2fr 1fr;
+  gap: 20px;
+}
+
+.gradientText {
+  background: linear-gradient(to right, #e6546c, #aa3ef4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.innerText {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  line-height: 0.9;
+  color: #fff;
+}
+
+.gridContainer {
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+  background-color: #131325;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 25px 400px 25px;
+  grid-template-rows: 30px 50px 20px 1fr 15px 1fr 15px 1fr 30px 60px 50px;
+}
+
+.textElement {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  font-size: 25px;
+  font-family: "Gantari", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer1 {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #26283d;
+  border-radius: 10px;
+}
+
+.formContainer2 {
+  grid-row: 6 / 7;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #26283d;
+  border-radius: 10px;
+}
+
+.formContainer3 {
+  grid-row: 8 / 9;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #26283d;
+  border-radius: 10px;
+}
+
+.dropdownForm {
+  height: 70%;
+  width: 280px;
+}
+
+.dropdown {
+  height: 100%;
+  width: 96%;
+  background: #131325;
+  color: #fff; /* adjust text color as needed */
+  border: none; /* remove default border */
+  border-radius: 5px; /* optional: round corners */
+  padding: 10px; /* optional: add some padding */
+}
+
+.formText {
+  color: #fff;
+  width: 80px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.buttonContainer {
+  grid-row: 10 / 11;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generateButton {
+  height: 50px;
+  width: 200px;
+  color: #010101;
+  background: linear-gradient(to right, #e6546c, #aa3ef4);
+}

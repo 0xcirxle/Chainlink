@@ -1,0 +1,106 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  margin: auto;
+  left: 5vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  align-items: center;
+  background-color: transparent;
+}
+
+.navbarTitle {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.05em;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbarTitle:hover {
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  text-decoration-color: #dc5083;
+  text-underline-offset: 5px;
+  transform: scale(1.05);
+}
+
+.walletStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(to right, #e6546c, #aa3ef4);
+  border-radius: 4px;
+}
+
+.walletStatus:hover {
+  transform: scale(1.05);
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background: linear-gradient(to right, #e6546c, #aa3ef4);
+}
+
+.navbarLink {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbarLink:hover {
+  text-decoration: underline;
+  text-decoration-color: #dc5083;
+  text-underline-offset: 5px;
+  transform: scale(1.05);
+}
+
+.wallet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 16px;
+  border-radius: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.navListRight div img {
+  width: 36px;
+  height: 36px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  font-family: "Inter", sans-serif;
+  opacity: 0.7;
+  font-weight: 700;
+  color: #fff;
+}

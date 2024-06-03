@@ -1,0 +1,16 @@
+# Ignore specific files
+
+# Ignore files in a specific directory
+logs/
+
+emls/
+# Ignore all files with a specific extension
+*.tmp
+
+
+# Ignore all files in a specific directory and its subdirectories
+build/
+
+
+# Ignore node_modules directory
+node_modules/

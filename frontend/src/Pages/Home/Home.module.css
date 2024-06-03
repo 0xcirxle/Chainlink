@@ -1,0 +1,39 @@
+.homeContainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../Assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeTitle {
+  font-size: 4rem;
+  margin-bottom: 0rem;
+}
+
+.homeSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.homeButton {
+  width: 205.6px;
+  height: 52px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: linear-gradient(to right, #e6546c, #aa3ef4);
+  color: #010101;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.homeButton:hover {
+  transform: scale(1.1);
+}

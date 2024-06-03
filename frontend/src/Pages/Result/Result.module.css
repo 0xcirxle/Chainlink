@@ -1,0 +1,77 @@
+.resultContainer {
+  background-image: url("../../Assets/result.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr 250px;
+  grid-template-rows: 230px 1fr 120px;
+  gap: 30px;
+}
+
+.mainContent {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 10px 1fr 10px;
+  grid-template-rows: 80px 1fr 1fr 80px;
+  gap: 15px;
+  background-color: #131325;
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.asideContent {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  overflow: hidden;
+}
+
+.addressText {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.addressValue {
+  background: #26283d;
+  height: 80px;
+  width: 400px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 30px;
+}
+
+.copyButton {
+  background: linear-gradient(to right, #e6546c, #aa3ef4);
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  height: 50px;
+  width: 200px;
+}
+
+.resultText {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  font-size: 24px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
